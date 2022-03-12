@@ -46,11 +46,11 @@ function Testimonials() {
               marginBottom: "10px",
             }}
           >
-            "So far only the rich have had access to the right financial advice
+            &quot; So far only the rich have had access to the right financial advice
           </p>
           <p style={{ fontSize: "1.1rem" }}>
             We are changing that by ensuring every investor has a dedicated
-            experts to maximize your gains"
+            experts to maximize your gains &quot;
           </p>
         </div>
       </div>

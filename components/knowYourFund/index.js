@@ -25,7 +25,7 @@ function Funds() {
           <span
              style={{  flex: "2",  flexDirection:"column" , fontSize: "1.4rem" , textAlign: "center" , marginBottom: "10px", color: "#052F5F"}}
           >
-            We don't use jargons, ratios or numbers to explain you anything. We
+            We don &quot; t use jargons, ratios or numbers to explain you anything. We
             do this in 6 languages
           </span>
         </div>
