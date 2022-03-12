@@ -1,0 +1,13 @@
+.informationContainer{
+    display: flex;
+    flex-direction: row;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.informationParent{
+    display: flex;
+    flex: 2;
+    flex-direction: column;
+}

@@ -1,0 +1,67 @@
+.heroContainer{
+    display: flex;
+    /* flex-direction: row; */
+    padding-top: 4rem;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-bottom: 10rem;
+}
+.heroParent{
+    display: flex;
+    flex: 2;
+    flex-direction: column;
+}
+.heroParentTypography{
+    font-size: 3rem;
+    margin: 0;
+    color: #052F5F;
+}
+.heroParentTypographyMob{
+    font-size: 1.75rem !important;
+    text-align: center;
+    margin-bottom: 10px ;
+    color: #052F5F;
+
+}
+.heroParentMain{
+    display: flex; 
+    height: 100%;
+    flex-direction: column;
+}
+.heroParentContent{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.heroPatentinternal{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    margin-right: 20;
+}
+.heroWhatsaAPP{
+    display: flex;
+    flex-direction: row;
+    margin-top: 2rem;
+    width: 242px;
+    height: 45px;
+    background: #03A87C;
+    border-radius: 5px;
+
+}
+.heroImage{
+    display: flex;
+    /* flex: 1; */
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+}
+.heroImageMob{
+    display: flex;
+    /* flex: 1; */
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+}

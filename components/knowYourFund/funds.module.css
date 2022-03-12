@@ -1,0 +1,39 @@
+.fundsContainer {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.fundsSeprateLine {
+  /* display: flex; */
+  /* flex-direction: column; */
+  margin: auto;
+  max-width: 90%;
+  margin-bottom: 4rem;
+  border-top: 3px solid;
+  margin-block-start: 0.5em;
+  margin-block-end: 0.5em;
+  margin-inline-start: auto;
+  margin-inline-end: auto;
+  overflow: hidden;
+  border-style: inset;
+  border-width: 1px;
+  line-height: 1.42 !important;
+  font-size: 0.875rem;
+  color: #052f5f !important;
+}
+.fundsParent{
+    display: flex;
+    flex-direction: column;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.fundsTypogarphy{
+    display: flex;
+    flex-direction: column;
+   
+    flex: 1;
+
+}

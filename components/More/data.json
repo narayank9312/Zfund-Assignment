@@ -1,0 +1,22 @@
+{
+    "heading": "More about us",
+    "expandableItems": [
+        {
+            "heading": "How does ZFunds work?",
+            "details": "ZFunds is India's only Mutual Funds Platform where you can get advice from top experts about your investments.You can download our app or send us a message on WhatsApp and an expert will help you plan your investments.",
+            "after": "[Know more about us](https://zfunds.in/homedetail)"
+        },
+        {
+            "heading": "Is my money safe with ZFunds?",
+            "details": "We have integrated with Bombay Stock Exchange to process your transactions. This means that your money never enters ZFunds bank account. It directly goes from you to BSE and then to the Mutual Fund company you invest in , ensuring 100% safety."
+        },
+        {
+            "heading": "Is it Free?",
+            "details": "With ZFunds you invest in Regular Mutual Funds, which means hat the Mutual Fund company you choose to invest with pays your ZFunds Expert a small commission. There is no other fees that we charge."
+        },
+        {
+            "heading": "How can i connect with an expert?",
+            "details": "You can simply download our App [**Here**](https://play.google.com/store/apps/details?id=com.zfunds.user&hl=en_IN&gl=US). Or drop us a WhatsApp [**Here**](https://api.whatsapp.com/send/?phone=917217746224&text=Hi+&app_absent=0)."
+        }
+    ]
+}

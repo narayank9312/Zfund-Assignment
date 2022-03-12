@@ -1,0 +1,20 @@
+.HeadingContainer {
+  background: white;
+  color: #052f5f;
+  font-size: 20px;
+  padding: 25px;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+.Heading {
+  font-weight: bold;
+  font-size: 2.5rem;
+  padding: 25px;
+  color: #052f5f;
+}
+.Details {
+  font-size: 20px;
+  padding: 25px;
+}

@@ -1,0 +1,94 @@
+.testimonialsContainer {
+  display: flex;
+  flex-direction: column;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  /* padding-left: 5%;
+  padding-right: 5%; */
+}
+.testimonialsParent {
+  display: flex;
+  background: #052f5f;
+  align-items: center;
+  color: #fff;
+}
+.testimonialsCeo {
+  display: row;
+  margin: 3rem 4rem;
+}
+.testimonialsImageCeo {
+  width: 250px;
+  border: 1px solid #707070;
+  height: auto;
+  max-width: 250px;
+  background: #fff;
+  margin-top: -77px;
+  border-radius: 100%;
+}
+.testimonialsSlogans {
+  display: flex;
+  flex-direction: column;
+}
+.testimonialsthoghts {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 0;
+  background: transparent linear-gradient(263deg, #052f5f 0%, #010913 100%);
+}
+.testimonialsRecords {
+  margin: 0 5rem;
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+}
+
+.testimonialsRecordsImage {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.leftArrow {
+  position: absolute;
+  top: 22%;
+  /* margin: 10%; */
+  /* margin-right: 40px; */
+  /* right: 32px; */
+  font-size: 3rem;
+  color: #000;
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+}
+.rightArrow {
+  position: absolute;
+  top: 22%;
+  /* margin: 10%; */
+  /* margin-left: -3%; */
+  left: 82%;
+  font-size: 3rem;
+  color: #000;
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+}
+
+.testimonialsExperts {
+  display: flex;
+  /* flex-direction: row; */
+  background-color: #fff;
+  margin-top: 20px;
+  width: 100%;
+}
+.heroWhatsaAPP {
+  display: flex;
+  flex-direction: row;
+  margin-top: 4rem;
+  width: 242px;
+  height: 45px;
+  background: #03a87c;
+  border-radius: 5px;
+  text-align: center;
+}
