@@ -22,18 +22,38 @@
   font-size: 0.875rem;
   color: #052f5f !important;
 }
-.fundsParent{
-    display: flex;
-    flex-direction: column;
-    padding-top: 4rem;
-    padding-bottom: 4rem;
-    padding-left: 5%;
-    padding-right: 5%;
+.fundsParent {
+  display: flex;
+  flex-direction: column;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  padding-left: 5%;
+  padding-right: 5%;
 }
-.fundsTypogarphy{
-    display: flex;
-    flex-direction: column;
-   
-    flex: 1;
+.fundsTypogarphy {
+  display: flex;
+  flex-direction: column;
 
+  flex: 1;
+}
+.imageSocial {
+  display: flex;
+  flex-direction: row;
+  justify-content: "space-around";
+  max-width: 100%;
+}
+.socialIcon{
+  display: flex;
+  width: 40%;
+  max-width: 40%;
+  margin: 2rem;
+  height: 200px;
+}
+@media (max-width: 850px) {
+  .imageSocial {
+    overflow-x: scroll;
+  }
+  .socialIcon {
+    margin-right: 10rem !important;
+  }
 }

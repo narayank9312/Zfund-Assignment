@@ -9,8 +9,7 @@ function NavbarAction() {
 
 function Navbar() {
   const isMobile = useMediaQuery();
-  return <NavbarDesktop />
-  //  isMobile ? <NavbarMobile /> : <NavbarDesktop />;
+  return <>{isMobile ? <NavbarMobile /> : <NavbarDesktop />}</>;
 }
 
 export default Navbar;

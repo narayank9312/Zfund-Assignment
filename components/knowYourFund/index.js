@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./funds.module.css";
+import useMediaQuery from "../../hooks/useMediaQuery";
 const cardsDetails = [
   {
     img: "/youtube.png",
@@ -12,44 +13,68 @@ const cardsDetails = [
   },
 ];
 function Funds() {
+  const isMobile = useMediaQuery();
+  
   return (
     <div className={styles.fundsContainer}>
       <hr className={styles.fundsSeprateLine}></hr>
       <div className={styles.fundsParent}>
         <div className={styles.fundsTypogarphy}>
           <span
-            style={{ flex: "1" , flexDirection:"column" , fontSize: "2.5rem" , textAlign:"center" , marginBottom: "10px" , color: "#052F5F"}}
+            style={!isMobile ? {
+              flex: "1",
+              flexDirection: "column",
+              fontSize: "2.5rem",
+              textAlign: "center",
+              marginBottom: "10px",
+              color: "#052F5F",
+            }: {
+              flex: "1",
+              flexDirection: "column",
+              fontSize: "1.5rem",
+              textAlign: "center",
+              marginBottom: "10px",
+              color: "#052F5F",
+            }}
           >
             <b>Know Your Funds</b> - in the language you understand
           </span>
           <span
-             style={{  flex: "2",  flexDirection:"column" , fontSize: "1.4rem" , textAlign: "center" , marginBottom: "10px", color: "#052F5F"}}
+            style={!isMobile ? {
+              flex: "2",
+              flexDirection: "column",
+              fontSize: "1.4rem",
+              textAlign: "center",
+              marginBottom: "10px",
+              color: "#052F5F",
+            } :{
+              flex: "2",
+              flexDirection: "column",
+              fontSize: "1rem",
+              textAlign: "center",
+              marginBottom: "10px",
+              color: "#052F5F",
+              lineHeight :"1.5rem"
+            }}
           >
-            We don &quot; t use jargons, ratios or numbers to explain you anything. We
-            do this in 6 languages
+            We don &quot; t use jargons, ratios or numbers to explain you
+            anything. We do this in 6 languages
           </span>
         </div>
         <div
-          style={{
-            display: "flex",
-            flexDirection: "row",
-            justifyContent: "space-around",
-            maxWidth: "100%",
-          }}
+        className={styles.imageSocial}
+        
         >
           {cardsDetails.map((details, index) => (
             <div
-              style={{
-                display: "flex",
-                width: "30%",
-                maxWidth: "33%",
-                marginRight: "2rem"
-              }}
+            className={styles.socialIcon}
+             
               key={index}
             >
-              <img 
-              style={{maxWidth: "100%" ,margin: "2rem", }}
-              src={details.img} />
+              <img
+                style={!isMobile ? { Width: "100%", margin: "2rem",height: '100%' } :{ Width: "100%" ,height: '100%'}}
+                src={details.img}
+              />
             </div>
           ))}
         </div>
